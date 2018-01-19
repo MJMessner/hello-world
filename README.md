@@ -1,8 +1,7 @@
-# hello-world
-This is my first use of github. My first repository. 
-Here we go...
-
-I'll try pasting some R-markdown code here.
+---
+title: "Simple Linear Model"
+output: html_notebook
+---
 
 ## The Basic Model
 
@@ -22,7 +21,7 @@ Another way to describe the model:
 
 ## Define Model Parameters
 
-Below, define the model parameters. 
+Below, define the model parameters, but using better names than "m" and "b".
 
 ```{r}
 intercept <- -10
